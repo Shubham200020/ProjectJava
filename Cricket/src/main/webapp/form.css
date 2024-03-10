@@ -1,0 +1,101 @@
+@charset "UTF-8";
+*{
+	 
+	background-image:url("photo/form2log.jpeg");
+	background-attachment:fixed;
+	color: white;
+}
+input{
+
+	border: 2px solid black;
+}
+label {
+		text-shadow: 2px 2px red;
+	width: 40%;
+	font-size: 20px;
+	
+}
+label {
+	margin-bottom: 30px;
+}
+label:hover{
+	transform: scale(1.1);
+}
+#user{
+	
+	width: 40%;
+	font-size: 20px;
+	opacity: 0.9;
+	
+}
+#user:hover{
+	transform: scale(1.1);
+}
+#password{
+	width: 40%;
+	font-size: 20px;
+}
+#password:hover{
+	transform: scale(1.1);
+}
+#sub{
+	color:red;
+	font-size:15px;
+	width: 15%;
+	height: 30px;
+
+	align-content:center;
+border :2px solid black;
+	color: #804040;
+	
+}
+#sub:hover{
+	transform: scale(1.1);
+	background-attachment: fixed;
+}
+input label{
+	margin: 220px;
+	opacity: 0.7;
+}
+
+form{
+	text-align:center;
+	padding:20px;
+	align-items: center;
+	width:100%;
+	opacity: 1.8;
+	height: 800px;
+	
+	height: 320px;
+	
+}
+#sub:active {
+	transform: scale(0.9);
+}
+.cssNav{
+	height:22px;
+	position: -webkit-sticky;
+  	position: sticky;
+	top:0;
+	width:100%;
+	font-size:20px;
+	background-color: white;
+	
+}
+.warning{
+	font-size: large;
+	color: red;
+}
+
+nav{
+	text-shadow: 2px 2px red;
+	position:fixed;
+}
+.conNav{
+	color:white;
+	position: -webkit-sticky;
+  position: sticky;
+  top:0;
+}
+
+

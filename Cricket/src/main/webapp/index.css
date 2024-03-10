@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+*{
+	background-attachment: scroll;
+}
+.cssNav{
+	height:22px;
+	position: -webkit-sticky;
+  	position: sticky;
+	top:0;
+	width:100%;
+	font-size:20px;
+	background-color: white;
+	
+}
+.conNav{
+	background-color: white;
+}
+nav{
+	position:fixed;
+}
+.image{
+	color:white;
+	width:100%;
+	height:400px;
+	background-color: black;
+}
+
+.image img{
+	width:100%;
+	height:60%;
+}
+.conNav{
+	color:white;
+	position: -webkit-sticky;
+  position: sticky;
+  top:0;
+}
+.turnament{
+	margin-top:22px;
+
+	color:gray;
+	
+	font-size:22px;
+	
+}
+.rwo{
+	height: 390px;
+	background-color: black;
+}
+.tur1{
+	
+	background-image:url("photo/1.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:330px;
+	background-color:black;
+}
+p{
+	font-size:20px;
+	 font-weight: 40px;	
+}
+.img img{
+	position:relative;
+	width: 100%;
+	
+}
+.img img:hover{
+	opacity: 0.8;
+}
+
+.header{
+	position: relative;
+	top: 350px;
+}
+
+.contain div:hover{
+	
+	opacity: 0.8;
+}
+.contain img :hover{
+	opacity: 1.1;
+}
+.tur1:hover{
+	
+	transform: scale(1.1);
+	transition:2s;
+}
+.trr1:hover .header1{
+	opacity: 1;
+}
+h2:hover{
+	opacity: 0.8;
+}
+.tur2{
+	background-image:url("photo/3.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:330px;
+
+	
+}
+.tur2:hover{
+	transform: scale(1.1);
+	transition:2s;
+}
+.tur3{
+	background-image:url("photo/4.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:330px;
+	background-color:black;	
+}
+
+.tur3:hover{
+	transform: scale(1.1);
+	transition:2s;
+}
+
+
+row{
+	background-color: black;
+}
+.rwo{
+	width:100%;
+	height: 500px;
+}
+.col{
+	color:gray;
+	height:100%;
+	display: block;
+    justify-content: center;
+}
+ul{
+	background-color: white;
+}
+li{
+	margin:20px;
+	background-color: white;
+}
+
+
+#book-btn{
+    position: relative;
+    /* background-color: red; */
+    border: 2px solid rgb(240, 57, 57);
+    top:330px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 70px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+#book-btn:active{
+    transform: scale(0.8);
+}
+#book-btn h2{
+    z-index: 1;
+}
+.ani{
+    position: absolute;
+    background-color: rgb(240, 57, 57);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all .7s ease-in-out;
+    transform: translate(0px,200px);
+}
+
+#book-btn:hover .ani{
+    /* transition: all .3s; */
+    transform: translate(0,0);
+}
+.txt:hover{
+	
+	 transform: scale(0.8);
+}
+
+ input{
+	background-color: black;
+	position:absolute;
+	left:25%;
+	color: gray;
+}
+.btns:hover {
+	background-color: rgb(240, 57, 57);
+}
+form :hover{
+	background-color: rgb(240, 57, 57);
+}
+

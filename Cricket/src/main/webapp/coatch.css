@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.link{
+	cursor: pointer;
+}
+.link:active{
+	transform: scale(0.8);
+}
